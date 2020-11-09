@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Bootstrap Example</title>
+  <title>Red Feed</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -33,7 +33,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>                        
       </button>
-      <a class="navbar-brand" href="#">News Feed</a>
+      <a class="navbar-brand" href="#">Red Feed</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
@@ -46,8 +46,8 @@
 <div class="container-fluid">
   <div class="row content">
     <div class="col-sm-2 sidenav hidden-xs">
-      <h2>News Feed</h2>
       <ul class="nav nav-pills nav-stacked">
+        <h2>Red Feed</h2>
         <p><a class="btn btn-danger btn-lg" href="/scrape" role="button">Scrape</a></p>
       </ul><br>
     </div>
@@ -58,22 +58,68 @@
       <div class="row">
         <div class="col-sm-6">
           <div class="well">
-            <h3>Fox</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <h3>{{news.}}</h3>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
+            <p>{{news.}}</p>
+            <p><a class="btn btn-secondary" href="{{news.}}" role="button">View details &raquo;</a></p>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="well">
-            <h3>Fox</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <h3>{{news.}}</h3>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
+            <p>{{news.}}</p>
+            <p><a class="btn btn-secondary" href="{{news.}}" role="button">View details &raquo;</a></p>
           </div>
         </div>
         <div class="col-sm-3">
           <div class="well">
-            <h3>Fox</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <h3>{{news.}}</h3>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
+            <p>{{news.}}</p>
+            <p><a class="btn btn-secondary" href="{{news.}}" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div class="row">
+        <div class="col-sm-4">
+          <div class="well">
+            <h3>{{news.}}</h3>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
+            <p>{{news.}}</p>
+            <p><a class="btn btn-secondary" href="{{news.}}" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="well">
+            <h3>OANN</h3>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
+            <p>amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="well">
+            <h3>OANN</h3>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
+            <p>met risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="well">
+            <h3>OANN</h3>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
+            <p> amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+          </div>
+        </div>
+        <div class="col-sm-2">
+          <div class="well">
+            <h3>OANN</h3>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
+            <p>t risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
@@ -82,74 +128,36 @@
       <div class="row">
         <div class="col-sm-4">
           <div class="well">
-            <h3>OANN</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="well">
-            <h3>OANN</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="well">
-            <h3>OANN</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="well">
-            <h3>OANN</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-        <div class="col-sm-2">
-          <div class="well">
-            <h3>OANN</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div>
-        </div>
-      </div>
-      <hr>
-      <div class="row">
-        <div class="col-sm-4">
-          <div class="well">
             <h3>NewsMax</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="well">
             <h3>NewsMax</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="well">
             <h3>NewsMax</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="well">
             <h3>NewsMax</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="well">
             <h3>NewsMax</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
@@ -159,35 +167,32 @@
         <div class="col-sm-4">
           <div class="well">
             <h3>Brietbart</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+            <img src="{{news.}}" class="img-responsive" style="width:100%" alt="Image">
+            <p> amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="well">
             <h3>Brietbart</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="well">
             <h3>Brietbart</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="well">
             <h3>Brietbart</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
         <div class="col-sm-2">
           <div class="well">
             <h3>Brietbart</h3>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
             <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
           </div>
         </div>
