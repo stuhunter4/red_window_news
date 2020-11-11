@@ -64,14 +64,6 @@ def scrape_info():
 # NewsMax
     url = "https://www.newsmax.com"
     url1 = "https://www.newsmax.com/us/"
-    browser.visit(url)
-    time.sleep(3)
-    html = browser.html
-    soup = bs(html, 'html.parser')
-    results = soup.find('center')
-    newsmax_link = url + results.find('a')['href']
-    newsmax_img = url + results.find('a').img['src']
-    newsmax_title = results.find('a').img['alt']
     browser.visit(url1)
     time.sleep(3)
     html = browser.html
@@ -141,9 +133,6 @@ def scrape_info():
         "oann_img5": oann_img5,
         "oann_link5": oann_link5,
         "oann_title5": oann_title5,
-        "newsmax_title": newsmax_title,
-        "newsmax_img": newsmax_img,
-        "newsmax_link": newsmax_link,
         "nmusa_title1": nmusa_title1,
         "nmusa_img1": nmusa_img1,
         "nmusa_link1": nmusa_link1,
